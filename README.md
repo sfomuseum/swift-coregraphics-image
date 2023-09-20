@@ -13,6 +13,7 @@ let im_rsp = CoreGraphicsImage.LoadFromURL(url: im_url)
 if case .success(let cg_image) = im_rsp {
     // do something with cg_image here
 }
+```
 
 ## Motivation
 
